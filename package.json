@@ -1,6 +1,6 @@
 {
   "name": "sanity-plugin-mathml-editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Visual MathML + LaTeX editor for Sanity using MathLive",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -12,8 +12,8 @@
   },
   "peerDependencies": {
     "sanity": "^3.0.0 || ^4.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": ">=18.0.0 <20.0.0",
+    "react-dom": ">=18.0.0 <20.0.0"
   },
   "dependencies": {
     "@sanity/ui": "^1.0.0",
