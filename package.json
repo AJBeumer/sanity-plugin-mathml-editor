@@ -1,6 +1,6 @@
 {
   "name": "sanity-plugin-mathml-editor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Visual MathML + LaTeX editor for Sanity using MathLive",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
