@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "description": "Visual MathML + LaTeX editor for Sanity using MathLive",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "sanity": "^3.0.0 || ^4.0.0",
